@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2d8ab4dd8440464f98d09ad0da157b04" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.Ad" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.AdStatus" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.AdType" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.Category" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.City" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Melnikov_DB_02Model.User" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <AssociationConnector Association="Melnikov_DB_02Model.FK_Ad_AdStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="Melnikov_DB_02Model.FK_Ad_AdType" ManuallyRouted="false" />
+        <AssociationConnector Association="Melnikov_DB_02Model.FK_Ad_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="Melnikov_DB_02Model.FK_Ad_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Melnikov_DB_02Model.FK_Ad_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
